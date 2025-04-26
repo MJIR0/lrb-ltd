@@ -1,0 +1,26 @@
+<section class="contact-form">
+  <h1>Get in Touch</h1>
+  <form action="#" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+  <div class="contact-info">
+    <p><strong>Address:</strong> [Add your company address here]</p>
+    <p><strong>Phone (Chairman - Md. Liton):</strong> 017-336-12151</p>
+    <p><strong>Email (Chairman):</strong> rkcableliton@gmail.com</p>
+    <p><strong>Phone (Managing Director - Rashed):</strong> 01738010933</p>
+    <p><strong>Email (Managing Director):</strong> h.m.rashidul86@gmail.com</p>
+    <p><strong>Phone (Director - Razib):</strong> 01721-236781</p>
+    <p><strong>Email (Director Razib):</strong> rajibmiah6781@gmail.com</p>
+    <p><strong>Phone (Director - Ibrahim):</strong> 01718-564598</p>
+    <p><strong>Email (Director Ibrahim):</strong> ibrahimbhuiyan828@gmail.com</p>
+  </div>
+</section>
