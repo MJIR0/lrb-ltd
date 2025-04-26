@@ -1,0 +1,22 @@
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+header { display: flex; justify-content: space-between; align-items: center; background: #333; padding: 10px 20px; }
+header .logo { height: 50px; }
+nav ul { list-style: none; display: flex; gap: 15px; }
+nav ul li a { color: #fff; text-decoration: none; padding: 5px 10px; }
+nav ul li a.active, nav ul li a:hover { background: #555; border-radius: 4px; }
+.hero { text-align: center; padding: 80px 20px; background: #f4f4f4; }
+.btn { display: inline-block; padding: 10px 20px; background: #007bff; color: #fff; text-decoration: none; border-radius: 4px; margin-top: 10px; }
+.features { display: flex; justify-content: center; gap: 20px; padding: 40px 20px; }
+.features .feature { flex: 1; text-align: center; }
+.catalog { padding: 40px 20px; }
+.product-grid { display: flex; flex-wrap: wrap; gap: 20px; }
+.product-card { border: 1px solid #ddd; padding: 20px; width: calc(33% - 40px); box-sizing: border-box; text-align: center; }
+.product-card img { max-width: 100%; height: auto; }
+.services { padding: 40px 20px; }
+.contact-form { padding: 40px 20px; display: flex; gap: 40px; }
+.contact-form form { flex: 1; display: flex; flex-direction: column; }
+.contact-form label { margin-top: 10px; }
+.contact-form input, .contact-form textarea { padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; }
+.contact-info { flex: 1; background: #f9f9f9; padding: 20px; border-radius: 4px; }
+footer { text-align: center; padding: 20px; background: #333; color: #fff; }
